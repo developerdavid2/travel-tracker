@@ -32,3 +32,8 @@ export type User = Prisma.UserModel
  * 
  */
 export type Destination = Prisma.DestinationModel
+/**
+ * Model File
+ * 
+ */
+export type File = Prisma.FileModel

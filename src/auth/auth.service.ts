@@ -28,7 +28,7 @@ export class AuthService {
     });
     const accessToken = this.jwtService.sign(
       { userId, refreshToken },
-      { expiresIn: '15m' },
+      { expiresIn: '1d' },
     );
     return { accessToken, refreshToken };
   }
